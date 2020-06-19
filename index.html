@@ -10,20 +10,25 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid">
+            <nav class="container-fluid navbar-fixed-top clearfix">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-6 col-lg-4">
-                            <a href="#">START BOOTSTRAP</a>
+                        <div class="col-xs-12 col-md-4">
+                            <a class="strart" href="#">START BOOTSTRAP</a>
                         </div>
-                        <div class="col-xs-6 col-lg-4 col-offset-lg-4 text-right">
-                            <button type="button" class="btn btn-default dropdown-toggle menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="col-xs-12 col-md-4 col-md-offset-4 text-right">
+                            <button type="button" class="btn btn-default dropdown-toggle menu visible-xs-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Action <span class="caret"></span>
                             </button>
+                            <ul class="nav navbar-left hidden-xs">
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            </nav>
 
         </header>
     </body>

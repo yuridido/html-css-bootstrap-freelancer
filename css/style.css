@@ -1,3 +1,4 @@
+/* PARTI GENERICHE */
 header {
     color: white;
 }
@@ -9,17 +10,18 @@ header {
     z-index: 999;
 }
 
+main {
+    background-color: white;
+}
+
+/* HEADER */
 
 .y-jumbo {
     padding-top: 110px;
     padding-bottom: 40px;
     background-color: #1abc9c;
-    height: 700px;
+    /* height: 700px; */
 }
-
-/* nav button {
-    background-color: #1abc9c;
-} */
 
 nav a:link,
 nav a:visited{
@@ -48,9 +50,64 @@ header img {
 }
 
 h1 {
-    font-size: 200%;
-    font-weight: 700;
+    font-size: 300%;
+    font-weight: bolder;
 }
+
+.y-barra span {
+    font-size: 300%;
+}
+
+.y-jumbo p {
+    font-size: 130%;
+}
+
+.y-barra {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.y-barra hr {
+    display: inline-block;
+    width: 20%;
+    height: 0.25rem;;
+    border-radius: 1rem;
+    vertical-align: bottom;
+
+}
+
+.y-jumbo hr {
+    background-color: white;
+}
+
+/* MAIN */
+
+main hr {
+    background-color: #2c3e50;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #2c3e50;
+}
+
+main h2 {
+    font-size: 250%;
+    font-weight: bolder;
+}
+
+.y-quadri {
+    padding: 3%;
+    height: 300px;
+}
+
+.y-portafoto img {
+    border-radius: 5%;
+}
+
+
+
 
 @media screen and (min-width: 992px) {
     .start {
@@ -58,8 +115,17 @@ h1 {
     }
 
     h1 {
+        font-size: 500%;
+    }
+
+    main h2 {
         font-size: 300%;
     }
+
+    .y-jumbo p {
+        font-size: 170%;
+    }
+
 
 
 

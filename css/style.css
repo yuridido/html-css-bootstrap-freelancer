@@ -98,13 +98,35 @@ main h2 {
 }
 
 .y-quadri {
-    padding: 3%;
+    padding: 20px;
     height: 300px;
 }
 
-.y-portafoto img {
-    border-radius: 5%;
+.y-over {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 187, 156, 0.7);
+    display: none;
 }
+
+.y-portafoto {
+    position: relative;
+    line-height: 260px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.y-portafoto:hover .y-over {
+    display: block;
+}
+
+/* .y-portafoto img {
+    border-radius: 5%;
+} */
 
 
 

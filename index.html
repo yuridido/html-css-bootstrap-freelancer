@@ -16,7 +16,7 @@
                             <a class="start" href="#">START BOOTSTRAP</a>
                         </div>
                         <div class="col-xs-6 col-md-4 col-md-offset-4 text-right y-top-dx">
-                            <button type="button" class="btn btn-default dropdown-toggle menu hidden-md hidden-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button type="button" id="bottone" class="btn btn-default dropdown-toggle menu hidden-md hidden-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 MENU <span class="glyphicon glyphicon-menu-hamburger"></span>
                             </button>
                             <ul class="hidden-xs hidden-sm list-inline text-uppercase">
@@ -104,5 +104,56 @@
                 </div>
             </div>
         </main>
+
+        <section id="about">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="text-uppercase">About</h2>
+                    <div class="y-barra">
+                        <hr>
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row text-left">
+                    <div class="col-md-4 col-md-offset-2">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <a href="#" class="btn btn-primary btn-lg active" role="button">
+                        <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+                        Free Download!
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="text-uppercase">Contact</h2>
+                    <div class="y-barra">
+                        <hr>
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <input type="text" class="col-xs-12 col-sm-8 col-sm-offset-2" placeholder="Name" required>
+                    <input type="text" class="col-xs-12 col-sm-8 col-sm-offset-2" placeholder="Email Adress" required>
+                    <input type="text" class="col-xs-12 col-sm-8 col-sm-offset-2" placeholder="Phone Number" required>
+                    <textarea rows="5" class="col-xs-12 col-sm-8 col-sm-offset-2" cols="80" placeholder="Message" required></textarea>
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-left y-cont-sub">
+                        <button type="submit" name="button" id="tasto-sub">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
